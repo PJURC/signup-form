@@ -1,0 +1,115 @@
+body {
+    font-family: Ubuntu;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #22223b;
+}
+
+@font-face {
+    font-family: "Press Start";
+    src: url("media/font.ttf");
+}
+
+#container {
+    width: 70%;
+    min-width: 600px;
+    height: 80vh;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #f8f9fa;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start";
+    font-size: 2vh;
+    margin-top: 15%;
+}
+
+#logo img {
+    width: 10vh;
+}
+
+#side {
+    width: 40%;
+    background-image: url("media/cover.png");
+    background-size: cover;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+#call-to-action {
+    width: 100%;
+    margin-top: 20%;
+    font-size: 2vh;
+    padding-left: 2vh;
+}
+
+form {
+    padding: 2vh 0 2vh 0;
+    margin: 2vh;
+}
+
+#inputs {
+    margin: 1vh 0 2vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    padding: 2vh 0 2vh 2vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: #f8f9fa;
+}
+
+legend {
+    width: 100%;
+    text-align: left;
+    font-size: 2vh;
+}
+
+.input {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 40%;
+    font-size: 1.5vh;
+    text-transform: uppercase;
+}
+
+label {
+    padding-bottom: 0.5vh;
+}
+
+input {
+    font-size: 2vh;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #22223b;
+    border-radius: 0.5vh;
+}
+
+button {
+    border: none;
+    border-radius: 0.5vh;
+    width: 30%;
+    padding: 1vh;
+    background-color: #22223b;
+    color: #f8f9fa;
+    font-size: 2.5vh;
+}
+
+#access p {
+    font-size: 1.5vh;
+}
